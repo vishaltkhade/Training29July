@@ -1,7 +1,8 @@
-name: 04-using-actions
+name: 04 - using-actions
 
 on:
-  push:
+  workflow_dispatch:
+  #push:
 
 jobs:
   echo_java_mavenrepo:
